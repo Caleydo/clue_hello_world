@@ -1,0 +1,23 @@
+{
+  "generator-phovea": {
+    "type": "app",
+    "app": "Clue Hello World",
+    "entries": {
+      "app": "./src/index.ts"
+    },
+    "libraries": [],
+    "modules": [
+      "phovea_clue"
+    ],
+    "libraryAliases": {},
+    "libraryExternals": [
+      "marked"
+    ],
+    "ignores": [],
+    "extensions": [],
+    "name": "clue_hello_world",
+    "author": "Samuel Gratzl",
+    "today": "Wed, 23 Nov 2016 17:32:24 GMT",
+    "githubAccount": "sgratzl"
+  }
+}
