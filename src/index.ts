@@ -11,7 +11,7 @@ import {create as createCLUE} from 'phovea_clue/src/template';
 import {ProvenanceGraph, cat} from 'phovea_core/src/provenance';
 import {createSetCLUEHelloWorldText} from './cmds';
 import {init as initCore} from 'phovea_core/src';
-import {APP_NAME} from './language';
+//import {APP_NAME} from './language';
 
 // mark the core to work offline
 initCore({ offline: true });
@@ -30,7 +30,7 @@ clue.$main.html(`
     <input type="text" value="">
     <button>Copy to the right</button>
     <div style="border: 1px solid black; min-width: 10em; display: inline-block"></div>
-</div>`)
+</div>`);
 
 const main = document.querySelector('div.clue_hello');
 
