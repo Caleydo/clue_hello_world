@@ -8,7 +8,10 @@
 module.exports = function(registry) {
   //registry.push('extension-type', 'extension-id', function() { return System.import('./src/extension_impl'); }, {});
   // generator-phovea:begin
-
+  registry.push('actionFactory', 'clue_hello_world', function() { return System.import('./src/cmds'); }, {
+    'factory': 'createCmd',
+    'creates': 'setCLUEHelloWorldText'
+ });
   // generator-phovea:end
 };
 
