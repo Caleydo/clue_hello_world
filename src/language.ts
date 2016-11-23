@@ -3,4 +3,3 @@
  */
 
 export const APP_NAME = 'Clue Hello World';
-export const HELLO_WORLD = 'Hello Phovea World';
