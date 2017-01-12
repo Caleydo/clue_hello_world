@@ -18,6 +18,7 @@
     "name": "clue_hello_world",
     "author": "Samuel Gratzl",
     "today": "Wed, 23 Nov 2016 17:32:24 GMT",
-    "githubAccount": "sgratzl"
+    "githubAccount": "sgratzl",
+    "clientOnly": false
   }
 }
