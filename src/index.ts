@@ -19,7 +19,7 @@ initCore({ offline: true });
 
 const clue = createCLUE(document.body, {
   id: 'clue_hello_world', //to separate provenance graph among apps
-  app: 'CLU Hello World',
+  app: 'CLUE Hello World',
   thumbnails: false, //no server thumbnails
 });
 
