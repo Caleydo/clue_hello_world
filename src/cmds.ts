@@ -25,7 +25,7 @@ function setCLUEHelloWorldText(inputs: prov.IObjectRef<HTMLElement>[], parameter
  */
 export function createSetCLUEHelloWorldText(outputRef: prov.IObjectRef<HTMLElement>, text: string) {
   return prov.action(prov.meta('change text', prov.cat.visual, prov.op.update), 'setCLUEHelloWorldText', setCLUEHelloWorldText, [outputRef], {
-    text: text
+    text
   });
 }
 
